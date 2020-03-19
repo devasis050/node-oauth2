@@ -95,3 +95,4 @@ server.get('/logout', (req,res) => {
 });
 
 server.listen(8080, () => console.log('Server started at 8080'));
+
