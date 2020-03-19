@@ -8,7 +8,7 @@ const cookieParser = require('cookie-parser');
 const uuid = require('uuid');
 
 const redirectUrl = 'http://localhost:8080/oauth/redirect';
-const clientSecret = 'aaeab93c3550c5db0dbaeb50681c8581';
+const clientSecret = 'xxxx';
 const clientId = '212634969918380';
 const tokenUrl = 'https://graph.facebook.com/v6.0/oauth/access_token?';
 const userDetailUrl = 'https://graph.facebook.com/me?';
