@@ -6,10 +6,12 @@ const server = express();
 const axios = require('axios');
 const cookieParser = require('cookie-parser');
 const uuid = require('uuid');
+const dotenv = require('dotenv');
+dotenv.config(); 
 
 const redirectUrl = 'http://localhost:8080/oauth/redirect';
-const clientSecret = 'xxxx';
-const clientId = '212634969918380';
+const clientSecret = process.env.clientSecret;
+const clientId = process.env.clientId;
 const tokenUrl = 'https://graph.facebook.com/v6.0/oauth/access_token?';
 const userDetailUrl = 'https://graph.facebook.com/me?';
 
